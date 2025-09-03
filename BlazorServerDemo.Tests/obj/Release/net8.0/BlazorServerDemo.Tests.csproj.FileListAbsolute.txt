@@ -106,3 +106,14 @@
 /Users/heitorsantos/FullStack/ServiceWithBlazor/BlazorServerDemo.Tests/obj/Release/net8.0/BlazorServerDemo.Tests.pdb
 /Users/heitorsantos/FullStack/ServiceWithBlazor/BlazorServerDemo.Tests/obj/Release/net8.0/BlazorServerDemo.Tests.genruntimeconfig.cache
 /Users/heitorsantos/FullStack/ServiceWithBlazor/BlazorServerDemo.Tests/obj/Release/net8.0/ref/BlazorServerDemo.Tests.dll
+/Users/heitorsantos/FullStack/ServiceWithBlazor/BlazorServerDemo.Tests/bin/Release/net8.0/publish/publish/web.config
+/Users/heitorsantos/FullStack/ServiceWithBlazor/BlazorServerDemo.Tests/bin/Release/net8.0/publish/web.config
+/Users/heitorsantos/FullStack/ServiceWithBlazor/BlazorServerDemo.Tests/bin/Release/net8.0/publish/appsettings.Development.json
+/Users/heitorsantos/FullStack/ServiceWithBlazor/BlazorServerDemo.Tests/bin/Release/net8.0/publish/appsettings.json
+/Users/heitorsantos/FullStack/ServiceWithBlazor/BlazorServerDemo.Tests/bin/Release/net8.0/publish/publish/appsettings.Development.json
+/Users/heitorsantos/FullStack/ServiceWithBlazor/BlazorServerDemo.Tests/bin/Release/net8.0/publish/publish/appsettings.json
+/Users/heitorsantos/FullStack/ServiceWithBlazor/BlazorServerDemo.Tests/bin/Release/net8.0/publish/publish/ServiceWithBlazor.deps.json
+/Users/heitorsantos/FullStack/ServiceWithBlazor/BlazorServerDemo.Tests/bin/Release/net8.0/publish/publish/ServiceWithBlazor.runtimeconfig.json
+/Users/heitorsantos/FullStack/ServiceWithBlazor/BlazorServerDemo.Tests/bin/Release/net8.0/publish/ServiceWithBlazor.deps.json
+/Users/heitorsantos/FullStack/ServiceWithBlazor/BlazorServerDemo.Tests/bin/Release/net8.0/publish/ServiceWithBlazor.runtimeconfig.json
+/Users/heitorsantos/FullStack/ServiceWithBlazor/BlazorServerDemo.Tests/obj/Release/net8.0/BlazorServerDemo.Tests.sourcelink.json
