@@ -1,0 +1,147 @@
+@page "/student"
+@using ServiceWithBlazor.Models;
+@inject ServiceWithBlazor.Services.IStudentService StudentService
+@rendermode InteractiveServer
+
+<PageTitle>Students</PageTitle>
+
+<div class="mb-3">
+    <input class="form-control" placeholder="Search name or email..."
+       @bind-value="_search" @oninput="OnSearchInput" />
+</div>
+
+<div class="mb-3">
+    <EditForm Model="_edit" OnValidSubmit="SaveAsync">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+        <div class="row g-2">
+            <div class="col-md-3">
+                <InputText class="form-control" @bind-Value="_edit.FirstName" placeholder="First name" />
+            </div>
+            <div class="col-md-3">
+                <InputText class="form-control" @bind-Value="_edit.LastName" placeholder="Last name" />
+            </div>
+            <div class="col-md-4">
+                <InputText class="form-control" @bind-Value="_edit.Email" placeholder="Email" />
+            </div>
+            <div class="col-md-2">
+                <InputNumber class="form-control" @bind-Value="_edit.Year" />
+            </div>
+        </div>
+        <div class="mt-2">
+            <button class="btn btn-primary me-2" type="submit">@(_edit.Id == Guid.Empty ? "Add" : "Update")</button>
+            @if (_edit.Id != Guid.Empty)
+            {
+                <button class="btn btn-secondary" type="button" @onclick="CancelEdit">Cancel</button>
+            }
+        </div>
+        @if (!string.IsNullOrEmpty(_error))
+        {
+            <div class="alert alert-warning mt-2">@_error</div>
+        }
+    </EditForm>
+</div>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Year</th>
+            <th style="width:190px"></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var s in _students)
+        {
+            <tr>
+                <td>@s.FullName</td>
+                <td>@s.Email</td>
+                <td>@s.Year</td>
+                <td>
+                    <button class="btn btn-sm btn-outline-primary me-2" @onclick="() => Edit(s)">Edit</button>
+                    <button class="btn btn-sm btn-outline-danger" @onclick="() => DeleteAsync(s.Id)">Delete</button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+
+@code {
+    private string? _search;
+    private List<Student> _students = new();
+    private Student _edit = new() { Year = 1 };
+    private string? _error;
+
+
+    protected override async Task OnInitializedAsync() => await LoadAsync();
+
+
+    protected override async Task OnParametersSetAsync() => await LoadAsync();
+
+
+    private async Task LoadAsync()
+    {
+        var list = await StudentService.ListAsync(_search);
+        _students = list.ToList();
+        StateHasChanged();
+    }
+
+
+    private void Edit(Student s)
+    {
+        _edit = new Student
+        {
+            Id = s.Id,
+            FirstName = s.FirstName,
+            LastName = s.LastName,
+            Email = s.Email,
+            Year = s.Year
+        };
+        _error = null;
+    }
+
+
+    private void CancelEdit()
+    {
+        _edit = new Student { Year = 1 };
+        _error = null;
+    }
+
+
+    private async Task SaveAsync()
+    {
+        if (_edit.Id == Guid.Empty)
+        {
+            var (ok, err, _created) = await StudentService.CreateAsync(_edit);
+            _error = err;
+        }
+        else
+        {
+            var (ok, err) = await StudentService.UpdateAsync(_edit);
+            _error = err;
+        }
+
+
+        if (string.IsNullOrEmpty(_error))
+        {
+            CancelEdit();
+            await LoadAsync();
+        }
+    }
+
+
+    private async Task DeleteAsync(Guid id)
+    {
+        await StudentService.DeleteAsync(id);
+        await LoadAsync();
+    }
+
+    private async Task OnSearchInput(ChangeEventArgs e)
+    {
+        _search = e.Value?.ToString();
+        await LoadAsync();
+    }
+
+}

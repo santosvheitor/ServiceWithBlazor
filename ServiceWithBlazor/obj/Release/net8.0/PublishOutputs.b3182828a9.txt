@@ -1,0 +1,7 @@
+/Users/heitorsantos/FullStack/ServiceWithBlazor/publish/ServiceWithBlazor
+/Users/heitorsantos/FullStack/ServiceWithBlazor/publish/appsettings.Development.json
+/Users/heitorsantos/FullStack/ServiceWithBlazor/publish/appsettings.json
+/Users/heitorsantos/FullStack/ServiceWithBlazor/publish/ServiceWithBlazor.dll
+/Users/heitorsantos/FullStack/ServiceWithBlazor/publish/ServiceWithBlazor.deps.json
+/Users/heitorsantos/FullStack/ServiceWithBlazor/publish/ServiceWithBlazor.runtimeconfig.json
+/Users/heitorsantos/FullStack/ServiceWithBlazor/publish/ServiceWithBlazor.pdb

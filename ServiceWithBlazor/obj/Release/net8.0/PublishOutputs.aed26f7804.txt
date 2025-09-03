@@ -1,0 +1,17 @@
+/var/folders/my/zzbc7_2n5hsc73z26hz772_40000gn/T/rider-publish129881062598374899/ServiceWithBlazor
+/var/folders/my/zzbc7_2n5hsc73z26hz772_40000gn/T/rider-publish129881062598374899/publish/publish/web.config
+/var/folders/my/zzbc7_2n5hsc73z26hz772_40000gn/T/rider-publish129881062598374899/publish/web.config
+/var/folders/my/zzbc7_2n5hsc73z26hz772_40000gn/T/rider-publish129881062598374899/appsettings.Development.json
+/var/folders/my/zzbc7_2n5hsc73z26hz772_40000gn/T/rider-publish129881062598374899/appsettings.json
+/var/folders/my/zzbc7_2n5hsc73z26hz772_40000gn/T/rider-publish129881062598374899/publish/appsettings.Development.json
+/var/folders/my/zzbc7_2n5hsc73z26hz772_40000gn/T/rider-publish129881062598374899/publish/appsettings.json
+/var/folders/my/zzbc7_2n5hsc73z26hz772_40000gn/T/rider-publish129881062598374899/publish/publish/appsettings.Development.json
+/var/folders/my/zzbc7_2n5hsc73z26hz772_40000gn/T/rider-publish129881062598374899/publish/publish/appsettings.json
+/var/folders/my/zzbc7_2n5hsc73z26hz772_40000gn/T/rider-publish129881062598374899/publish/publish/ServiceWithBlazor.deps.json
+/var/folders/my/zzbc7_2n5hsc73z26hz772_40000gn/T/rider-publish129881062598374899/publish/publish/ServiceWithBlazor.runtimeconfig.json
+/var/folders/my/zzbc7_2n5hsc73z26hz772_40000gn/T/rider-publish129881062598374899/publish/ServiceWithBlazor.deps.json
+/var/folders/my/zzbc7_2n5hsc73z26hz772_40000gn/T/rider-publish129881062598374899/publish/ServiceWithBlazor.runtimeconfig.json
+/var/folders/my/zzbc7_2n5hsc73z26hz772_40000gn/T/rider-publish129881062598374899/ServiceWithBlazor.dll
+/var/folders/my/zzbc7_2n5hsc73z26hz772_40000gn/T/rider-publish129881062598374899/ServiceWithBlazor.deps.json
+/var/folders/my/zzbc7_2n5hsc73z26hz772_40000gn/T/rider-publish129881062598374899/ServiceWithBlazor.runtimeconfig.json
+/var/folders/my/zzbc7_2n5hsc73z26hz772_40000gn/T/rider-publish129881062598374899/ServiceWithBlazor.pdb

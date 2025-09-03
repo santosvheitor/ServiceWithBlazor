@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="ServiceWithBlazor" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="ServiceWithBlazor">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/site/wwwroot" local="$PROJECT_DIR$/bin/Release/net7.0/publish" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

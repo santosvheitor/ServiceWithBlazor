@@ -1,0 +1,12 @@
+/Users/heitorsantos/FullStack/ServiceWithBlazor/ServiceWithBlazor/publish/ServiceWithBlazor
+/Users/heitorsantos/FullStack/ServiceWithBlazor/ServiceWithBlazor/publish/publish/web.config
+/Users/heitorsantos/FullStack/ServiceWithBlazor/ServiceWithBlazor/publish/appsettings.Development.json
+/Users/heitorsantos/FullStack/ServiceWithBlazor/ServiceWithBlazor/publish/appsettings.json
+/Users/heitorsantos/FullStack/ServiceWithBlazor/ServiceWithBlazor/publish/publish/appsettings.Development.json
+/Users/heitorsantos/FullStack/ServiceWithBlazor/ServiceWithBlazor/publish/publish/appsettings.json
+/Users/heitorsantos/FullStack/ServiceWithBlazor/ServiceWithBlazor/publish/publish/ServiceWithBlazor.deps.json
+/Users/heitorsantos/FullStack/ServiceWithBlazor/ServiceWithBlazor/publish/publish/ServiceWithBlazor.runtimeconfig.json
+/Users/heitorsantos/FullStack/ServiceWithBlazor/ServiceWithBlazor/publish/ServiceWithBlazor.dll
+/Users/heitorsantos/FullStack/ServiceWithBlazor/ServiceWithBlazor/publish/ServiceWithBlazor.deps.json
+/Users/heitorsantos/FullStack/ServiceWithBlazor/ServiceWithBlazor/publish/ServiceWithBlazor.runtimeconfig.json
+/Users/heitorsantos/FullStack/ServiceWithBlazor/ServiceWithBlazor/publish/ServiceWithBlazor.pdb
