@@ -37,3 +37,4 @@
 /Users/heitorsantos/FullStack/ServiceWithBlazor/ServiceWithBlazor/bin/Release/net8.0/publish/publish/appsettings.json
 /Users/heitorsantos/FullStack/ServiceWithBlazor/ServiceWithBlazor/bin/Release/net8.0/publish/publish/ServiceWithBlazor.deps.json
 /Users/heitorsantos/FullStack/ServiceWithBlazor/ServiceWithBlazor/bin/Release/net8.0/publish/publish/ServiceWithBlazor.runtimeconfig.json
+/Users/heitorsantos/FullStack/ServiceWithBlazor/ServiceWithBlazor/obj/Release/net8.0/ServiceWithBlazor.sourcelink.json
